@@ -9,10 +9,7 @@
 // Example
 // ['hello', 'world', 'this', 'is', 'great']  =>  'hello world this is great'
 
-//1 add variable sentence
-//2 add strings and add spaces between
-//3 return result
-
 function smash (words) {
-    return ""
- };
+  return words.join(" ");
+};
+console.log (smash(['hello', 'world', 'this', 'are', 'great']));
