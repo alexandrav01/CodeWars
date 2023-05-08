@@ -33,5 +33,6 @@ function DNAtoRNA(dna) {
         if(dna[i]=="T"){
         result.push("U")
         } else result.push(dna[i])
+    }
     return result.join("")
     }   
