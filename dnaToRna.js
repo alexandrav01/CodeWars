@@ -29,10 +29,12 @@
 
 function DNAtoRNA(dna) {
     let result=[]
-    for(let i=0; i<dna.length; i++){
+    for(let i=0; i<dna.length; i++) {
+        console.log( "index is ", dna[i])
         if(dna[i]=="T"){
         result.push("U")
         } else result.push(dna[i])
     }
     return result.join("")
     }   
+    console.log(DNAtoRNA("UTUT"))
