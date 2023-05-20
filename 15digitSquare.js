@@ -15,7 +15,5 @@ function squareDigits(x){
     }
    
     return Number(array.join(""))
-
-    
 }
  console.log(squareDigits(1234))
