@@ -8,10 +8,7 @@
 // Also, your function will always get an array or a list, you don't have to check for null, undefined or similar.
 
 function minMax(arr){
-//   let array=[]
-//   for(let i=0; i<arr.length; i++){
-// array.push(arr[i])
-//   }
+
   let sorted = arr.sort(function(a, b){return a - b})
   // console.log("array is ", array)
   console.log("sorted array is ", sorted)
