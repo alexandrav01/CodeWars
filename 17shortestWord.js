@@ -7,7 +7,7 @@ function findShort(s){
    for(let i=0; i<array.length; i++){
     indexes.push(array[i].length)
    }
-   let sorted = indexes.sort(function(a, b){return a - b})
+   let sorted = indexes.sort(function(a, b){return b - a})
    return sorted[0]
 }
 console.log (findShort("the world is mine"))
