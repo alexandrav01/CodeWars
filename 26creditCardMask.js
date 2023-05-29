@@ -33,7 +33,7 @@ function maskify(cc) {
   for (let j = 0; j < firstHalf.length; j++) {
     result.push("#");
   }
-
+  
   let cardNumber = result.concat(secondHalf);
   let cardMask = cardNumber.join("");
 
